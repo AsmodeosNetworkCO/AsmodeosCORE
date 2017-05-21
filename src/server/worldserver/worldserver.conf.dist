@@ -1,5 +1,5 @@
 ################################################
-#   SkyFire World Server configuration file    #
+#   AsmodeosCORE 5.4.8 World Server configuration file    #
 ################################################
 [worldserver]
 ConfVersion=2017031000
@@ -90,13 +90,13 @@ LogsDir = ""
 #                                                                 section my.ini)
 #                     ".;/path/to/unix_socket;username;password;database" - (use Unix sockets on
 #                                                                           Unix/Linux)
-#        Default:     "127.0.0.1;3306;skyfire;skyfire;auth"       - (LoginDatabaseInfo)
-#                     "127.0.0.1;3306;skyfire;skyfire;world"      - (WorldDatabaseInfo)
-#                     "127.0.0.1;3306;skyfire;skyfire;characters" - (CharacterDatabaseInfo)
+#        Default:     "127.0.0.1;3306;asmodeos;asmodeos;auth"       - (LoginDatabaseInfo)
+#                     "127.0.0.1;3306;asmodeos;asmodeos;world"      - (WorldDatabaseInfo)
+#                     "127.0.0.1;3306;asmodeos;asmodeos;characters" - (CharacterDatabaseInfo)
 
-LoginDatabaseInfo     = "127.0.0.1;3306;skyfire;skyfire;auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;skyfire;skyfire;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;skyfire;skyfire;characters"
+LoginDatabaseInfo     = "127.0.0.1;3306;asmodeos;asmodeos;auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;asmodeos;asmodeos;world"
+CharacterDatabaseInfo = "127.0.0.1;3306;asmodeos;asmodeos;characters"
 
 #
 #    LoginDatabase.WorkerThreads
@@ -1064,7 +1064,7 @@ BeepAtStart = 1
 #        Example:     "Welcome to John\'s Server@This server runs on SkyFire Core."
 #        Default:     "Welcome to a SkyFire server."
 
-Motd = "Welcome to a SkyFire server."
+Motd = "Welcome to a AsmodeosCORE server 5.4.8."
 
 #
 #    Server.LoginInfo
